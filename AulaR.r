@@ -376,6 +376,22 @@ vetor["Idade"]
 #3- Crie um vetor com o elemento da posição 121° e 750° do vetor combinado.
 
 
+
+vetInt500 = c(1:500)
+vetInt500
+
+vetCarac500 = rep(c("a","b"),250)
+vetCarac500
+
+?rep
+vetResult = c(vetInt500,vetCarac500)
+
+vetResult
+
+vetEntre = c(vetResult[121], vetResult[750])
+
+vetEntre
+
 #####################################
 ########### 06 - Matrizes ###########
 #####################################
