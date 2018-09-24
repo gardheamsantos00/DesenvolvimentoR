@@ -285,6 +285,21 @@ lista2
 #2- criar um dataframe com os dois vetores anteriores.
 #3- criar uma lista com 4 elementos (1 valor lógico, 1 vetor, 1 matriz, 1 dataframe)
 
+vet1 = c(1,4)
+vet2 = c("a","e")
+
+dataFra = data.frame(vet1,vet2)
+
+dataFra
+arg1 = TRUE
+arg2 = c(1,2,3,4)
+arg3 = matrix(1:4)
+arg4 = data.frame(vet2,vet1)
+lista = list(arg1,arg2,arg3,arg4)
+lista 
+
+
+
 ####################################
 ########### 05 - Vetores ###########
 ####################################
